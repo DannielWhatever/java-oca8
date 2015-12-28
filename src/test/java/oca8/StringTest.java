@@ -18,5 +18,15 @@ public class StringTest {
         assertEquals(str1, str2);
         assertFalse(str1 == str3);
         assertTrue("chao"=="chao");
+
+        //otra prueba, mas rebuscada
+        str1 = "chao";
+        str2 = "chao".trim();
+        str3 = " chao".trim();
+        assertTrue(str1 == str2);
+        assertFalse(str1 == str3);
     }
+
+
+
 }
