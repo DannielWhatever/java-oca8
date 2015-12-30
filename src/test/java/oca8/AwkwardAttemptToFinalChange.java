@@ -13,7 +13,7 @@ import java.lang.reflect.Modifier;
  *
  * @author daniel.gutierrez
  */
-public class Awkard {
+public class AwkwardAttemptToFinalChange {
 
     @Test
     public void mainTest() throws NoSuchFieldException, IllegalAccessException {
