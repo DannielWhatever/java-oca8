@@ -1,4 +1,4 @@
-package oca8;
+package oca8.access_modifiers;
 
 import org.junit.Test;
 
@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * @author daniel.gutierrez
  */
-public class StaticMemebersTest {
+public class StaticTest {
 
     static final String HOLA = "hola";
 
@@ -15,12 +15,12 @@ public class StaticMemebersTest {
     public void llamandoUnMiembroEstatico(){
 
         assertEquals(HOLA, this.HOLA);
-        assertEquals(HOLA, StaticMemebersTest.HOLA);
+        assertEquals(HOLA, StaticTest.HOLA);
 
-        StaticMemebersTest instance = new StaticMemebersTest();
+        StaticTest instance = new StaticTest();
         assertEquals(HOLA, instance.HOLA);
 
-        StaticMemebersTest nullInstance = null;
+        StaticTest nullInstance = null;
         assertEquals("quirky but this actually works", HOLA, nullInstance.HOLA);
 
 

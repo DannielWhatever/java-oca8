@@ -1,9 +1,9 @@
-package oca8.packageTest;
+package oca8.access_modifiers.protected_test;
 
 /**
  * @author daniel.gutierrez
  */
-public class EjemploFueraPackage {
+public class EjemploProtected {
 
     protected void metodoEj(){
         System.out.println("ok");
