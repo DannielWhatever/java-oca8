@@ -1,4 +1,4 @@
-package oca8;
+package oca8.oop;
 
 import org.junit.Test;
 

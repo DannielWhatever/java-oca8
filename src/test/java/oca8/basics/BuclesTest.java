@@ -1,4 +1,4 @@
-package oca8;
+package oca8.basics;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -13,7 +13,7 @@ public class BuclesTest {
         Instancia[] instancias = {new Instancia(), new Instancia()};
         instancias[0].name = "modificado";
         for(Instancia i:instancias){
-            i = new Instancia(); //cambia la referencia del objeto
+            i = new Instancia(); //cambia la referencia del objeto, por lo que no se verá reflejado el cambio
         }
         Assert.assertEquals(instancias[0].name, "modificado");
         for(Instancia i :instancias){

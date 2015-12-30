@@ -1,11 +1,10 @@
-package oca8;
+package oca8.java_api;
 
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 import static org.junit.Assert.*;
 
